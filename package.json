@@ -1,0 +1,16 @@
+{
+  "name": "marketing-programado",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "check-dependencies": "yarn depcheck --ignores=''",
+    "pretty": "prettier --write .",
+    "pretty:staged": "prettier --write"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "3.4.0",
+    "depcheck": "1.4.3",
+    "prettier": "2.3.2"
+  }
+}
